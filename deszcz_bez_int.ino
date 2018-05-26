@@ -20,7 +20,7 @@ int OstatniaWartosc = HIGH;
 #define TX  D4  //11
 
 Sim800L GSM(RX, TX);
-char* numer="665279931";
+char* numer="000000000"; //telephone number 
 
 
 void setup() {
@@ -108,7 +108,7 @@ void deszcz(){
     
    // czasp=millis();
     
-  //   zadzown("+48665279931");
+ 
    // }
   
     
